@@ -19,11 +19,11 @@ body {
 }
 
 .pie{
-    background-color: aqua;
+    background-image: linear-gradient(to right, #1d3947,#1d5271);
     padding: 50px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    text-align: center;
 }
-.col{
-    padding-left:px;
+
+.color{
+    color: white;
 }
