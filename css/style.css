@@ -1,5 +1,5 @@
 body {
-
+    margin: 0px;    
 }
 .subrayado{
     text-decoration-style:dotted;
@@ -18,12 +18,64 @@ body {
     justify-content: center;
 }
 
+.logo{
+    margin-left: 100px;
+}
 .pie{
     background-image: linear-gradient(to right, #1d3947,#1d5271);
     padding: 50px;
-    text-align: center;
+
+}
+.color-fondo-gris{
+    background-color: #343a40 !important;
+}
+.links-menu-head{
+    display: flex;
+    text-decoration: none;
+    color: #9b9ba3;
+    justify-content: space-between;
+    margin-right: 20px;
+    
+}
+.links-menu-head:hover, a{
+    color: white ;
+
 }
 
-.color{
+.links-menu-head > *{
+    padding: 10px;
+}
+
+.color-plata{
+    color: #9b9ba3;
+}
+.color-verde{
+    color: #28a645;
+}
+.color-blanco{
     color: white;
+}
+.links-menu div{
+    font-weight: 600;
+    
+}
+.links-menu-pie{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    margin-left: 35px;
+    
+}
+.links-menu-pie > *{
+    padding: 10px;
+}
+.links-menu-pie-hover:hover{
+    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    
 }
