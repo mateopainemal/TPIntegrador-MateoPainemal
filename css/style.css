@@ -1,23 +1,25 @@
 body {
     margin: 0px;    
 }
-.subrayado{
-    text-decoration-style:dotted;
-}
-.conviertete-en-orador{
-    
-}
 
-.palabra-orador{
-    
-}
 
 .formulario{
     align-items: center;
     text-align: center;
     justify-content: center;
 }
-
+.fondo{
+    background-color: red !important;
+}
+.menu{
+    
+    position: absolute;
+    z-index: 1;
+    display: block;
+}
+.compra-margin{
+    margin-right: 80px !important;
+}
 .logo{
     margin-left: 100px;
 }
@@ -42,9 +44,7 @@ body {
 
 }
 
-.links-menu-head > *{
-    padding: 10px;
-}
+
 
 .color-plata{
     color: #9b9ba3;
@@ -59,6 +59,58 @@ body {
     font-weight: 600;
     
 }
+.Primer-carrusel {
+    position: relative ;
+    background-color:#000000;
+    z-index: 0;
+    bottom: 100px;
+}
+
+.texto {
+    position: absolute;
+    top: 330px;
+    left: 70px;
+    font-size: 25px;
+    color: white; /* Color del texto */
+    padding: 10px; /* Espaciado interno */
+    margin-right: 150px; /* Espaciado externo derecho */
+    z-index: 1; /* mandar al frente */
+    margin-left: 750px;/* Espaciado externo izquierdo */
+}
+
+.texto-BS{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.boton-direccion{
+    
+    margin-right: 50px;
+}
+.boton-tamaño{
+    font-size: 20px !important ;
+}
+
+.oradores {
+    text-align: center;
+    position: absolute;
+    top: 900px;
+    left: 770px;
+    background-color: #9b9ba3;
+    font-size: px;
+    color: black; /* Color del texto */
+    padding: 10px; /* Espaciado interno */
+    margin-right: 150px; /* Espaciado externo derecho */
+    z-index: 1; /* mandar al frente */
+    margin-left: 0px;/* Espaciado externo izquierdo */
+}
+
+.palabra-oradores{
+    font-size: 40px;
+    
+}
+
+
 .links-menu-pie{
     display: flex;
     align-items: center;
