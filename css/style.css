@@ -1,5 +1,6 @@
 body {
     margin: 0px;    
+    padding-left: 0px;
 }
 
 
@@ -53,7 +54,7 @@ body {
     color: #28a645;
 }
 .color-blanco{
-    color: white;
+    color: white !important;
 }
 .links-menu div{
     font-weight: 600;
@@ -94,10 +95,9 @@ body {
 .oradores {
     text-align: center;
     position: absolute;
-    top: 900px;
-    left: 770px;
-    background-color: #9b9ba3;
-    font-size: px;
+    top: 970px;
+    left: 0px;
+    
     color: black; /* Color del texto */
     padding: 10px; /* Espaciado interno */
     margin-right: 150px; /* Espaciado externo derecho */
@@ -108,6 +108,23 @@ body {
 .palabra-oradores{
     font-size: 40px;
     
+}
+
+.espacio-botones{
+    margin-top: 10px;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.Playa{
+    margin-left: 0px;
+    padding-left: 0px;
+    align-items: start;
+}
+
+.espacio{
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 
