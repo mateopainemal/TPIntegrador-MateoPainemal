@@ -9,7 +9,7 @@
     text-align: center;
     justify-content: center;
 }
-.fondo{
+.fondo9{
     background-color: red !important;
 }
 .menu{
@@ -68,12 +68,17 @@
     
 }
 .Primer-carrusel {
-    position: relative ;
     background-color:#000000;
-    z-index: 0;
-    bottom: 100px;
+    
+    padding: 0px 0px !important;
 }
 
+.z{
+    z-index: 1;
+    position: absolute;
+    font-size: 25px;
+    color: white;
+}
 .texto {
     position: absolute;
     top: 330px;
