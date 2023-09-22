@@ -1,6 +1,6 @@
-body {
+* {
     margin: 0px;    
-    padding-left: 0px;
+    padding: 0px;
 }
 
 
@@ -17,6 +17,7 @@ body {
     position: absolute;
     z-index: 1;
     display: block;
+    width: 100%;
 }
 .compra-margin{
     margin-right: 80px !important;
@@ -33,12 +34,11 @@ body {
     background-color: #343a40 !important;
 }
 .links-menu-head{
-    display: flex;
+    
     text-decoration: none;
     color: #9b9ba3;
-    justify-content: space-between;
-    margin-right: 20px;
     font-size: 20px;
+
     
 }
 .links-menu-head:hover, a{
@@ -48,6 +48,9 @@ body {
 
 .texto-logo{
     font-size: 30px;
+    text-decoration: none;
+    padding-left: 100px; 
+    
 }
 
 
