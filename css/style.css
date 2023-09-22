@@ -73,22 +73,18 @@
     padding: 0px 0px !important;
 }
 
-.z{
-    z-index: 1;
-    position: absolute;
-    font-size: 25px;
-    color: white;
-}
+
 .texto {
-    position: absolute;
+    background-color: #28a645;
+    width: auto;
     top: 330px;
     left: 70px;
     font-size: 25px;
     color: white; /* Color del texto */
-    padding: 10px; /* Espaciado interno */
-    margin-right: 150px; /* Espaciado externo derecho */
-    z-index: 1; /* mandar al frente */
+    margin-right: 250px; /* Espaciado externo derecho */
     margin-left: 750px;/* Espaciado externo izquierdo */
+    z-index: 1; /* mandar al frente */
+    
 }
 
 .texto-BS{
