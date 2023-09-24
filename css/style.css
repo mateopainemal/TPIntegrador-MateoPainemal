@@ -53,7 +53,9 @@
     
 }
 
-
+.bg-verde{
+    background-color: #96c93e !important;
+}
 .color-plata{
     color: #9b9ba3;
 }
@@ -105,8 +107,7 @@
     position: absolute;
     top: 970px;
     left: 0px;
-    
-    color: black; /* Color del texto */
+    color: black;  Color del texto */
     padding: 10px; /* Espaciado interno */
     margin-right: 150px; /* Espaciado externo derecho */
     z-index: 1; /* mandar al frente */
@@ -122,20 +123,30 @@
     margin-top: 10px;
     padding-top: 0px !important;
     padding-bottom: 0px !important;
+    font-size: 13px !important;
 }
 
 .Playa{
+    margin-top: 25px;
     margin-left: 0px;
     padding-left: 0px;
     align-items: start;
 }
 
 .espacio{
-    margin-top: 10px;
-    margin-left: 10px;
+    margin-top: 25px;
+    margin-left: 25px;
 }
 
 
+
+.linea-punteada{
+    text-decoration: 1px rgb(0, 0, 0) underline dotted;
+    
+}
+.ancho{
+    height:60px;
+}
 .links-menu-pie{
     display: flex;
     align-items: center;
