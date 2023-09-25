@@ -147,13 +147,13 @@
 .ancho{
     height:60px;
 }
+
 .links-menu-pie{
-    display: flex;
-    align-items: center;
+    
+    
     text-decoration: none;
-    text-align: center;
     color: white;
-    margin-left: 35px;
+
     
 }
 .links-menu-pie > *{
