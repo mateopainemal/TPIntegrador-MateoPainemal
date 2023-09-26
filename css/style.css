@@ -148,13 +148,10 @@
     height:60px;
 }
 
-.links-menu-pie{
-    
-    
+
+.links-menu-pie{    
     text-decoration: none;
     color: white;
-
-    
 }
 .links-menu-pie > *{
     padding: 10px;
