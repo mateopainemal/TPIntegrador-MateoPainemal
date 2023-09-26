@@ -4,54 +4,38 @@
 }
 
 
-.formulario{
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-}
-.fondo9{
-    background-color: red !important;
-}
+
 .menu{
-    
     position: absolute;
     z-index: 1;
     display: block;
     width: 100%;
 }
-.compra-margin{
-    margin-right: 80px !important;
-}
-.logo{
-    margin-left: 100px;
-}
-.pie{
-    background-image: linear-gradient(to right, #1d3947,#1d5271);
-    padding: 50px;
-
-}
+/* inicio del header */
 .color-fondo-gris{
     background-color: #343a40 !important;
 }
 .links-menu-head{
-    
     text-decoration: none;
     color: #9b9ba3;
     font-size: 20px;
-
-    
 }
 .links-menu-head:hover, a{
     color: white ;
-
 }
-
+.boton-tamaño{
+    font-size: 20px !important ;
+}
 .texto-logo{
     font-size: 30px;
     text-decoration: none;
     padding-left: 100px; 
+    font-weight: 600;
     
 }
+/* fin del header */
+
+/* Seccion colores: Colores que estan repartidos a lo largo de todo el codigo  */
 
 .bg-verde{
     background-color: #96c93e !important;
@@ -65,66 +49,50 @@
 .color-blanco{
     color: white !important;
 }
-.links-menu div{
-    font-weight: 600;
-    
-}
+/* Fin de la seccion colores  */
+
+
+/* inicio del carrusel */
 .Primer-carrusel {
     background-color:#000000;
     
-    padding: 0px 0px !important;
 }
-
-
+/* texto del carrusel*/
 .texto {
-    
     width: auto;
-    top: 390px;
+    top: 440px;
     left: 70px;
     font-size: 25px;
     color: white; /* Color del texto */
     margin-right: 250px; /* Espaciado externo derecho */
     margin-left: 750px;/* Espaciado externo izquierdo */
     z-index: 1; /* mandar al frente */
+    position: absolute;
+    overflow-y: auto;
     
 }
-
-.texto-BS{
+.texto-BS{ 
     font-size: 40px;
     font-weight: 600;
 }
-
-.boton-direccion{
-    
-    margin-right: 50px;
+.background{
+    background-color: #9b9ba3;
+    opacity: 0.5;
 }
-.boton-tamaño{
-    font-size: 20px !important ;
-}
+/* fin del carrusel  */
 
-.oradores {
-    text-align: center;
-    position: absolute;
-    top: 970px;
-    left: 0px;
-    color: black;  Color del texto */
-    padding: 10px; /* Espaciado interno */
-    margin-right: 150px; /* Espaciado externo derecho */
-    z-index: 1; /* mandar al frente */
-    margin-left: 0px;/* Espaciado externo izquierdo */
-}
 
-.palabra-oradores{
-    font-size: 40px;
-    
-}
+/* inicio de la sección de los oradores */
 
-.espacio-botones{
+.espacio-botones /* botones de las cars de los oradores */{
     margin-top: 10px;
     padding-top: 0px !important;
     padding-bottom: 0px !important;
     font-size: 13px !important;
 }
+/* fin de la seccion de oradores  */
+
+/* inicio de la seccion de la playa carrusel  */
 
 .Playa{
     margin-top: 25px;
@@ -132,23 +100,28 @@
     padding-left: 0px;
     align-items: start;
 }
-
 .espacio{
     margin-top: 25px;
     margin-left: 25px;
 }
 
+/* fin de la seccion playa  */
 
+
+/* inicio del formulario */
 
 .linea-punteada{
     text-decoration: 1px rgb(0, 0, 0) underline dotted;
     
 }
-.ancho{
-    height:60px;
+/* fin de la del formulario  */
+
+
+/* inicio del footer  */
+.pie{
+    background-image: linear-gradient(to right, #0b1c25,#1d5271);
+    padding: 50px;
 }
-
-
 .links-menu-pie{    
     text-decoration: none;
     color: white;
