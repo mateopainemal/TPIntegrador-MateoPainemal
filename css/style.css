@@ -1,9 +1,8 @@
 * {
+    box-sizing: border-box;
     margin: 0px;    
     padding: 0px;
 }
-
-
 
 .menu{
     position: absolute;
@@ -11,18 +10,15 @@
     display: block;
     width: 100%;
 }
-/* inicio del header */
+
 .color-fondo-gris{
     background-color: #343a40 !important;
 }
-.links-menu-head{
-    text-decoration: none;
-    color: #9b9ba3;
-    font-size: 20px;
+
+.nav-menu {
+    color: white !important;
 }
-.links-menu-head:hover, a{
-    color: white ;
-}
+
 .boton-tamaño{
     font-size: 20px !important ;
 }
@@ -33,10 +29,12 @@
     font-weight: 600;
     
 }
-/* fin del header */
-
-/* Seccion colores: Colores que estan repartidos a lo largo de todo el codigo  */
-
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    height: 35rem;
+    overflow: hidden;
+}
 .bg-verde{
     background-color: #96c93e !important;
 }
@@ -49,52 +47,21 @@
 .color-blanco{
     color: white !important;
 }
-/* Fin de la seccion colores  */
 
 
-/* inicio del carrusel */
-.Primer-carrusel {
-    background-color:#000000;
-    
-}
-/* texto del carrusel*/
-.texto {
-    width: auto;
-    top: 440px;
-    left: 70px;
-    font-size: 25px;
-    color: white; /* Color del texto */
-    margin-right: 250px; /* Espaciado externo derecho */
-    margin-left: 750px;/* Espaciado externo izquierdo */
-    z-index: 1; /* mandar al frente */
-    position: absolute;
-    overflow-y: auto;
-    
-}
-.texto-BS{ 
-    font-size: 40px;
-    font-weight: 600;
-}
-.background{
-    background-color: #9b9ba3;
-    opacity: 0.5;
-}
-/* fin del carrusel  */
-
-
-/* inicio de la sección de los oradores */
-
-.espacio-botones /* botones de las cars de los oradores */{
+.espacio-botones{
     margin-top: 10px;
     padding-top: 0px !important;
     padding-bottom: 0px !important;
     font-size: 13px !important;
 }
-/* fin de la seccion de oradores  */
 
-/* inicio de la seccion de la playa carrusel  */
+img {
+    max-width: 100%;
+    height: auto;
+}
 
-.Playa{
+.foto-img{
     margin-top: 25px;
     margin-left: 0px;
     padding-left: 0px;
@@ -105,35 +72,50 @@
     margin-left: 25px;
 }
 
-/* fin de la seccion playa  */
-
-
-/* inicio del formulario */
-
 .linea-punteada{
     text-decoration: 1px rgb(0, 0, 0) underline dotted;
     
 }
-/* fin de la del formulario  */
 
 
-/* inicio del footer  */
-.pie{
-    background-image: linear-gradient(to right, #0b1c25,#1d5271);
-    padding: 50px;
-}
-.links-menu-pie{    
+.pie {
+    background-image: linear-gradient(to right, #0b1c25, #1d5271);
+    padding: 50px 0;
+    color: white;
+  }
+  
+  .links-menu-pie {
     text-decoration: none;
     color: white;
-}
-.links-menu-pie > *{
     padding: 10px;
-}
-.links-menu-pie-hover:hover{
+    display: block;
+    transition: text-decoration 0.3s;
+  }
+  
+  .links-menu-pie:hover {
     text-decoration: underline;
-    text-decoration-line: underline;
-    text-decoration-thickness: initial;
-    text-decoration-style: initial;
-    text-decoration-color: initial;
-    
+  }
+  
+  @media screen and (max-width: 768px) {
+    .pie {
+      text-align: center;
+    }
+  
+    .links-menu-pie {
+      margin-bottom: 10px;
+    }
+  }
+  
+@media screen and (max-width: 768px) {
+
+    .nav-menu {
+        font-size: 16px;
+    }
+    .carousel-inner {
+        height: auto;
+    }
+    .carousel-inner img {
+        max-height: 250px; 
+    }
 }
+
